@@ -21,6 +21,6 @@ color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
 running = True
 while running:
-    pass
+    screen.fill(color)
 
 pygame.quit()
